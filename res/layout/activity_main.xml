@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <pinneactivity.example.view.PinnedSectionListView
+        android:id="@+id/pinnedSectionListView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:fadingEdge="none"
+        android:divider="@drawable/line"
+        android:listSelector="@drawable/selector_listview"
+        android:dividerHeight="0.1dp"
+        android:scrollbars="none"
+        android:cacheColorHint="#00000000"/>
+
+</LinearLayout>
